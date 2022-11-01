@@ -24,7 +24,7 @@ function App() {
           <p className = "subtext"> This is where you find books about design and coding.</p>
         </a>
 
-        <a id = "btn_zuri" className="ZuriBtn" href="https://books.zuri.team/python-for-beginners?ref_id=<SophiaEzeh>" > Python Books
+        <a id = "book_python" className="ZuriBtn" href="https://books.zuri.team/python-for-beginners?ref_id=<SophiaEzeh>" > Python Books
           <p className = "subtext"> Best Selling book for learning to code in Python. Get your copy now!</p>
         </a>
         <a id = "pitch" className="ZuriBtn" href="https://background.zuri.team"> Background Check for Coders
