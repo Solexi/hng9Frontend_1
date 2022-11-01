@@ -1,0 +1,98 @@
+.App{
+  text-align: center;
+} 
+.profile{
+  width: 88px;
+  height: 88px;
+}
+
+.profile{
+  border-radius: 50%;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.shareBtn{
+  padding: 44px 0 0;
+  padding-left: 65%;
+}
+.Tusername{
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  padding:24px 0 56px 0;
+}
+.ZuriBtn {
+  font-size: 18px;
+  text-decoration: none;
+  padding: 24px;
+  width: 80%; 
+  border-radius: 8px;
+  margin-bottom: 24px;
+  color: black;
+  background-color: #eaecf0;
+  transition: 3s;
+}
+#slack{
+  display: none;
+}
+
+.subtext{
+  display: none;
+  margin-top: 0px;
+}
+.ZuriBtn:hover > .subtext{
+  color: #eaecf0;
+  background-color: rgb(19, 19, 19);
+  display: block; 
+  margin-top: 10px ;
+  transition-duration: 60s;
+}
+.socials{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 24px;
+  padding-bottom: 32px;
+}
+
+.footerElements{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 48px;
+  margin-bottom: 20px;
+  border-top: 1px solid #eaecf0;
+}
+.hngTask{
+  width: 832.28px;
+  height: 24px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+.Zuri{
+  width: 187.59px;
+  height: 32px;
+  order: 0;
+}
+.I4G{
+  width: 132.13px;
+  height: 32px;
+  order: 2;
+}
+@media only screen and (max-width: 750px){
+  .footerElements{
+    flex-direction: column;
+    align-items: center;
+  }
+}
