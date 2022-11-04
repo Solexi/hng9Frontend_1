@@ -1,0 +1,64 @@
+.App{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+  } 
+  
+  .profile{
+    width: 88px;
+    height: 88px;
+  }
+  
+  .profile{
+    border-radius: 50%;
+  }
+  
+  .App-header {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .shareBtn{
+    padding: 44px 0 0;
+    padding-left: 65%;
+  }
+  .Tusername{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    padding:24px 0 56px 0;
+  }
+  .ZuriBtn {
+    font-size: 18px;
+    text-decoration: none;
+    padding: 24px;
+    width: 80%; 
+    border-radius: 8px;
+    margin-bottom: 24px;
+    color: black;
+    background-color: #eaecf0;
+    transition: 3s;
+  }
+  #slack{
+    display: none;
+  }
+  
+  .subtext{
+    display: none;
+    margin-top: 0px;
+  }
+  .ZuriBtn:hover > .subtext{
+    color: #eaecf0;
+    background-color: rgb(19, 19, 19);
+    display: block; 
+    margin-top: 10px ;
+    transition-duration: 60s;
+  }
+  .socials{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 24px;
+  }
+  
