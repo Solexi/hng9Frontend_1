@@ -6,7 +6,7 @@ import './index.css'
 
 const LinktreePage = () => {
     return (
-        <div className="App">
+        <div className="Apps">
             <header className="App-header">
                 <img src={share_button} alt="share_button" className="shareBtn" />
                 <img src={profile} id="profile_img" className="profile" alt="profile" />
@@ -29,6 +29,9 @@ const LinktreePage = () => {
                 </a>
                 <a id="book_design" className="ZuriBtn" href="https://books.zuri.team/design-rules"> Design Books
                     <p className="subtext"> Zuri offers the best book design for FREE! Get started today</p>
+                </a>
+                <a id = "contact" className='ZuriBtn' href = "/contact"> 
+                    Contact Us 
                 </a>
                 <div className="socials">
                     <img src={slack} alt="" />

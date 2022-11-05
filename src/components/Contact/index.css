@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    font-family: 'Inter', sans-serif;
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.App{
+    text-align: left;
+    margin-left: auto;
+    margin-top: 4rem;
+    width: 90%;
+  } 
+.contact-me{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #101828;
+    width: 448px;
+    height: 44px;
+}
+.contactSub{
+    font-weight: 400;
+    font-size: 20px;
+    color: #475467;
+    height: 30px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    margin: 25px auto;
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
+.Email{
+    width: 100%;
+    margin: 25px auto;
+}
+.message{
+    width: 100%;
+    margin: 25px auto;
+}
+.labels{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+label[for="first_name"]{
+    position: absolute;
+    top: 12rem;
+}
+label[for="last_name"]{
+    position: absolute;
+    top: 12rem;
+    margin-left: 32.5rem;
+}
+label[for="message"]{
+    position: absolute;
+    top: 27rem;
+}
+textarea[type="text"]{
+    width: 40%;
+    margin: 0 20px 0 0;
+    padding: 15px;
+    height: 28px;
+    border: 1px solid #D0D5DD;
+    background: transparent;
+    font-weight: 400;
+    font-size: 16px;
+    color: #434753;
+    outline-color: #FFD6BA;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+textarea[type = "email"]{
+    width: 84.5%;
+    margin: 5px 0 0px 0;
+    padding: 15px;
+    border: 1px solid #D0D5DD;
+    background: transparent;
+    font-weight: 400;
+    font-size: 16px;
+    color: #434753;
+    outline-color: #FFD6BA;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+#message{
+    height: 132px;
+    width: 84.5%;
+}
+input[type="checkbox"]{
+	cursor: pointer;
+    margin-right: 12px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    border-radius: 6px;
+}
+.submitBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    width: 87.5%;
+    height: 48px;
+    background: #1570EF;
+    border: 1px solid #1570EF;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+@media  (min-width: 655px) and (max-width: 800px){
+    label[for="last_name"]{
+        position: absolute;
+        top: 12rem;
+        margin-left: 19.5rem;
+    }
+    
+}
+@media  (min-width: 555px) and (max-width: 655px){
+    label[for="last_name"]{
+        position: absolute;
+        top: 12rem;
+        margin-left: 17.5rem;
+    }
+    
+}
+@media  (min-width: 500px) and (max-width: 555px){
+    label[for="last_name"]{
+        position: absolute;
+        top: 12rem;
+        margin-left: 15.5rem;
+    }
+    
+}
+@media screen and (max-width: 700px){
+    label[for="last_name"]{
+        position: absolute;
+        top: 12rem;
+        margin-left: 13.5rem;
+    }
+    .name{
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+        width: 100%;
+
+    }
+    label[for="last_name"]{
+        position: absolute;
+        top: 16.5rem;
+        margin-left: 0rem;
+    }
+    .Email{
+        width: 100%;
+        margin: 50px auto;
+    }
+    textarea[type="text"]{
+        width: 84.5%;
+    }
+    .submitBtn{
+        width: 95%;
+    }
+    label[for="message"]{
+        position: absolute;
+        top: 30rem;
+    }
+}
