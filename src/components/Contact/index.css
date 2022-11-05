@@ -176,6 +176,11 @@ input[type="checkbox"]{
     }
     label[for="message"]{
         position: absolute;
-        top: 30rem;
+        top: 29rem;
+    }
+    #message{
+        height: 132px;
+        width: 84.5%;
+        margin-top: -30px;
     }
 }
