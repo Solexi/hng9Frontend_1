@@ -15,25 +15,29 @@ const Contact = () => {
                                 type="text" 
                                 placeholder='Enter your first name' 
                                 tabIndex={1}
-                                required />
+                                required 
+                                maxLength={15}
+                                />
                         <label className="labels" htmlFor='last_name'> Last Name</label>
                             <textarea 
                                 id="last_name" 
                                 type="text" 
                                 placeholder='Enter your last name' 
                                 tabIndex={2}
-                                required />
+                                required 
+                                maxLength={15}
+                                />
                     </div>
                     <div className='Email'>
                         <label className = "labels" htmlFor='email'> Email </label><br/>
-                        <textarea id="email" type="email" placeholder='yourname@email.com' required/>
+                        <input id="email" type="email" placeholder='yourname@email.com' required/>
                     </div>
                     <div className='message'>
                         <label className = "labels" htmlFor='message'> Message </label>
-                        <textarea id="message" type="text" placeholder='Send me a message and I will reply you as soon as possible...' required/>
+                        <textarea id="message" type="text" minLength={100} placeholder='Send me a message and I will reply you as soon as possible...' required/>
                     </div>
                     <label>
-                        <input type="checkbox" />
+                        <input type="checkbox" required/>
                         You agree to provide your data to Sophia who may contact you.
                     </label>
                     <p>
