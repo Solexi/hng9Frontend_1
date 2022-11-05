@@ -15,7 +15,6 @@
 .contact-me{
     font-weight: 600;
     font-size: 36px;
-    line-height: 44px;
     letter-spacing: -0.02em;
     color: #101828;
     width: 448px;
@@ -146,13 +145,12 @@ input[type="checkbox"]{
     
 }
 @media screen and (max-width: 700px){
-    label[for="last_name"]{
+    label[for="first_name"]{
         position: absolute;
-        top: 12rem;
-        margin-left: 13.5rem;
+        top: 13rem;
     }
     .contactSub{
-        margin-bottom: 10px;
+        margin-bottom: 40px;
     }
     .name{
         display: flex;
@@ -163,7 +161,7 @@ input[type="checkbox"]{
     }
     label[for="last_name"]{
         position: absolute;
-        top: 16.5rem;
+        top: 17.5rem;
         margin-left: 0rem;
     }
     .Email{
